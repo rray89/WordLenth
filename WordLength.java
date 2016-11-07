@@ -50,21 +50,8 @@ public class WordLength {
 	
 	//main method for testing
 	public static void main(String[] args) throws IOException{
-		
-		String filepath="src/errors.txt";
-		
-		int [] counts = new int[40];
-		for (int i = 0; i<counts.length; i++)
-			counts[i]=0;
-		
-		countWordLengths(filepath, counts);
-		
-		for (int i = 0; i < counts.length; i++)
-			if (counts[i]!=0)
-				System.out.println("count["+i+"] is " + counts[i]);
-		
-		System.out.println("The index of the max value in the array is "+indexOfMax(counts));
 
+		//Testing code here
 	}
 
 }
